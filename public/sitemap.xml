@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Home Page -->
+  <url>
+    <loc>https://digisolar.it/</loc>
+    <lastmod>2024-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://digisolar.it/images/hero-solar-panels.png</image:loc>
+      <image:title>Digisolar - Impianti Fotovoltaici</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Azienda - Fotovoltaico Industriale -->
+  <url>
+    <loc>https://digisolar.it/azienda</loc>
+    <lastmod>2024-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://digisolar.it/images/industrial-solar.png</image:loc>
+      <image:title>Fotovoltaico Industriale</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Residenziale -->
+  <url>
+    <loc>https://digisolar.it/residenziale</loc>
+    <lastmod>2024-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://digisolar.it/images/residential-solar.png</image:loc>
+      <image:title>Fotovoltaico Residenziale</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Revamping -->
+  <url>
+    <loc>https://digisolar.it/revamping</loc>
+    <lastmod>2024-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://digisolar.it/images/hero-solar-panels.png</image:loc>
+      <image:title>Revamping Impianti Fotovoltaici</image:title>
+    </image:image>
+  </url>
+  
+  <!-- CER - Comunità Energetiche -->
+  <url>
+    <loc>https://digisolar.it/cer</loc>
+    <lastmod>2024-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://digisolar.it/images/energy-community.png</image:loc>
+      <image:title>Comunità Energetiche Rinnovabili</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Portfolio -->
+  <url>
+    <loc>https://digisolar.it/portfolio</loc>
+    <lastmod>2024-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Contatti -->
+  <url>
+    <loc>https://digisolar.it/contatti</loc>
+    <lastmod>2024-01-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://digisolar.it/privacy-policy</loc>
+    <lastmod>2024-01-29</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <!-- Cookie Policy -->
+  <url>
+    <loc>https://digisolar.it/cookie-policy</loc>
+    <lastmod>2024-01-29</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+</urlset>
