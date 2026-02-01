@@ -73,13 +73,13 @@ export default function Azienda() {
               L'energia prodotta dal sole può consentire all'impresa di ridurre la dipendenza dalla rete 
               di oltre il 50-60% sul totale dei consumi energetici medi annui.
             </p>
-            <div className="flex items-center gap-4 p-4 rounded-xl bg-card/50 backdrop-blur-sm border border-border max-w-md">
-              <div className="text-center">
-                <div className="font-display text-3xl font-bold text-gradient-gold">3-5</div>
-                <div className="text-muted-foreground text-sm">Anni</div>
+            <div className="flex items-center gap-3 p-3 md:p-4 rounded-xl bg-card/50 backdrop-blur-sm border border-border max-w-md">
+              <div className="text-center flex-shrink-0">
+                <div className="font-display text-2xl md:text-3xl font-bold text-gradient-gold whitespace-nowrap">3‑5</div>
+                <div className="text-muted-foreground text-xs md:text-sm">Anni</div>
               </div>
-              <div className="h-12 w-px bg-border" />
-              <div className="text-muted-foreground text-sm">
+              <div className="h-12 w-px bg-border flex-shrink-0" />
+              <div className="text-muted-foreground text-xs md:text-sm leading-relaxed">
                 Periodo di ammortamento di un impianto fotovoltaico correttamente dimensionato
               </div>
             </div>
