@@ -31,11 +31,12 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-solar-darker border-t border-border/50 relative overflow-hidden">
+    <footer className="bg-gradient-to-b from-background via-solar-darker to-black border-t border-primary/20 relative overflow-hidden">
       {/* Background decoration */}
-      <div className="absolute inset-0 bg-noise opacity-50" />
-      <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
-      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-accent/5 rounded-full blur-3xl" />
+      <div className="absolute inset-0 bg-noise opacity-[0.3]" style={{ pointerEvents: 'none' }} />
+      <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-primary/10 rounded-full blur-3xl" />
+      <div className="absolute bottom-0 right-1/4 w-[600px] h-[600px] bg-amber-500/10 rounded-full blur-3xl" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-primary/5 rounded-full blur-3xl" />
 
       <div className="container relative">
         {/* Main Footer Content */}
@@ -67,7 +68,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={social.label}
-                  className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all"
+                  className="w-12 h-12 rounded-lg bg-secondary/50 backdrop-blur-sm border border-primary/20 flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-primary/20 hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/20"
                   whileHover={{ y: -3 }}
                   whileTap={{ scale: 0.95 }}
                 >

@@ -129,17 +129,6 @@ export default function Home() {
           style={{ opacity: heroOpacity }}
         >
           <div className="max-w-3xl">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-            >
-              <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-6">
-                <Sun className="w-4 h-4" />
-                Energia Pulita, Futuro Sostenibile
-              </span>
-            </motion.div>
-
             <motion.h1
               className="font-display text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6"
               initial={{ opacity: 0, y: 30 }}
@@ -165,16 +154,16 @@ export default function Home() {
               className="flex flex-col sm:flex-row gap-4"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.8 }}
+              transition={{ duration: 0.8, delay: 0.6 }}
             >
               <Link href="/contatti">
-                <Button size="lg" className="glow-gold bg-primary hover:bg-primary/90 text-primary-foreground font-display font-semibold px-8 h-14 text-lg group">
+                <Button size="lg" className="glow-gold bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600 hover:from-amber-700 hover:via-amber-600 hover:to-amber-700 hover:scale-105 text-white font-display font-bold px-8 h-14 text-lg group shadow-xl shadow-amber-600/60 border-2 border-amber-500/30">
                   Richiedi Preventivo
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
-              <Link href="/#servizi">
-                <Button size="lg" variant="outline" className="border-border hover:bg-secondary font-display font-semibold px-8 h-14 text-lg">
+              <Link href="/servizi">
+                <Button size="lg" className="bg-black hover:bg-black/80 border-2 border-primary/50 hover:border-primary hover:scale-105 font-display font-semibold px-8 h-14 text-lg shadow-lg text-white">
                   Scopri i Servizi
                 </Button>
               </Link>
@@ -182,9 +171,9 @@ export default function Home() {
           </div>
         </motion.div>
 
-        {/* Scroll Indicator */}
+        {/* Scroll Indicator - Hidden on mobile to avoid overlap with CTA */}
         <motion.div
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10"
+          className="hidden md:block absolute bottom-8 left-1/2 -translate-x-1/2 z-10"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5 }}
@@ -201,7 +190,7 @@ export default function Home() {
 
       {/* Stats Section */}
       <section className="py-16 bg-solar-darker border-y border-border/50 relative overflow-hidden">
-        <div className="absolute inset-0 bg-noise opacity-30" />
+        <div className="absolute inset-0 bg-noise opacity-[0.3]" style={{ pointerEvents: 'none' }} />
         <div className="container relative">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {stats.map((stat, index) => {
@@ -295,7 +284,7 @@ export default function Home() {
 
       {/* About Section */}
       <section id="chi-siamo" className="py-24 bg-solar-darker relative overflow-hidden">
-        <div className="absolute inset-0 bg-noise opacity-30" />
+        <div className="absolute inset-0 bg-noise opacity-[0.3]" style={{ pointerEvents: 'none' }} />
         <div className="absolute bottom-0 left-0 w-[800px] h-[800px] bg-accent/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
         
         <div className="container relative">
@@ -315,16 +304,16 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/50 to-transparent" />
               </div>
-              {/* Floating Card */}
+              {/* Floating Card - Better positioned for mobile and desktop */}
               <motion.div
-                className="absolute -bottom-8 -right-8 bg-card border border-border rounded-xl p-6 shadow-2xl shadow-black/20 max-w-xs"
+                className="absolute bottom-4 left-4 md:-bottom-8 md:-right-8 md:left-auto bg-card border border-border rounded-xl p-6 shadow-2xl shadow-black/20 max-w-[280px] backdrop-blur-sm"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.3 }}
               >
                 <div className="font-display text-3xl font-bold text-gradient-gold mb-1">10+</div>
-                <div className="text-muted-foreground text-sm">Anni di esperienza nel settore fotovoltaico</div>
+                <div className="text-muted-foreground text-sm leading-relaxed">Anni di esperienza nel settore fotovoltaico</div>
               </motion.div>
             </motion.div>
 
@@ -348,7 +337,7 @@ export default function Home() {
                 di produrre energia pulita, indipendente, economica e sostenibile.
               </p>
               <Link href="/contatti">
-                <Button size="lg" className="glow-gold-sm bg-primary hover:bg-primary/90 text-primary-foreground font-display font-semibold px-8">
+                <Button size="lg" className="glow-gold bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600 hover:from-amber-700 hover:via-amber-600 hover:to-amber-700 hover:scale-105 text-white font-display font-bold px-8 shadow-xl shadow-amber-600/60 border-2 border-amber-500/30">
                   Contattaci Ora
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
@@ -397,7 +386,7 @@ export default function Home() {
 
       {/* Testimonials Section */}
       <section className="py-24 relative overflow-hidden">
-        <div className="absolute inset-0 bg-noise opacity-30" />
+        <div className="absolute inset-0 bg-noise opacity-[0.3]" style={{ pointerEvents: 'none' }} />
         <div className="container relative">
           <motion.div
             className="text-center max-w-3xl mx-auto mb-16"
@@ -518,7 +507,7 @@ export default function Home() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-background via-background/95 to-background" />
         </div>
-        <div className="absolute inset-0 bg-noise opacity-30" />
+        <div className="absolute inset-0 bg-noise opacity-[0.3]" style={{ pointerEvents: 'none' }} />
         
         <div className="container relative">
           <motion.div
@@ -536,12 +525,13 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contatti">
-                <Button size="lg" className="glow-gold bg-primary hover:bg-primary/90 text-primary-foreground font-display font-semibold px-10 h-14 text-lg">
+                <Button size="lg" className="glow-gold bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600 hover:from-amber-700 hover:via-amber-600 hover:to-amber-700 hover:scale-105 text-white font-display font-bold px-10 h-14 text-lg shadow-xl shadow-amber-600/60 border-2 border-amber-500/30">
                   Richiedi Preventivo Gratuito
+                  <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
               <a href="tel:+393472219505">
-                <Button size="lg" variant="outline" className="border-primary/50 hover:bg-primary/10 font-display font-semibold px-10 h-14 text-lg">
+                <Button size="lg" className="bg-black hover:bg-black/80 border-2 border-primary/50 hover:border-primary hover:scale-105 font-display font-semibold px-10 h-14 text-lg shadow-lg text-white">
                   Chiama Ora
                 </Button>
               </a>

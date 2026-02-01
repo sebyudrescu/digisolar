@@ -193,7 +193,7 @@ export default function Portfolio() {
 
       {/* Hero Section */}
       <section className="relative py-24 overflow-hidden">
-        <div className="absolute inset-0 bg-noise opacity-30" />
+        <div className="absolute inset-0 bg-noise opacity-[0.3]" style={{ pointerEvents: 'none' }} />
         <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
         
         <div className="container relative">
@@ -220,7 +220,7 @@ export default function Portfolio() {
 
       {/* Stats Section */}
       <section className="py-16 bg-solar-darker border-y border-border/50 relative overflow-hidden">
-        <div className="absolute inset-0 bg-noise opacity-30" />
+        <div className="absolute inset-0 bg-noise opacity-[0.3]" style={{ pointerEvents: 'none' }} />
         <div className="container relative">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {[
@@ -294,7 +294,7 @@ export default function Portfolio() {
 
       {/* CTA Section */}
       <section className="py-24 bg-solar-darker relative overflow-hidden">
-        <div className="absolute inset-0 bg-noise opacity-30" />
+        <div className="absolute inset-0 bg-noise opacity-[0.3]" style={{ pointerEvents: 'none' }} />
         <div className="container relative">
           <motion.div
             className="max-w-3xl mx-auto text-center"
@@ -310,7 +310,7 @@ export default function Portfolio() {
               un impianto fotovoltaico perfetto per le tue esigenze.
             </p>
             <Link href="/contatti">
-              <Button size="lg" className="glow-gold bg-primary hover:bg-primary/90 text-primary-foreground font-display font-semibold px-10 h-14 text-lg">
+              <Button size="lg" className="glow-gold bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600 hover:from-amber-700 hover:via-amber-600 hover:to-amber-700 hover:scale-105 text-white font-display font-bold px-10 h-14 text-lg shadow-xl shadow-amber-600/60 border-2 border-amber-500/30">
                 Richiedi Preventivo Gratuito
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>

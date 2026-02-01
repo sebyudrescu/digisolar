@@ -82,7 +82,7 @@ export default function Calcolatore() {
 
       {/* Hero Section */}
       <section className="relative py-24 overflow-hidden">
-        <div className="absolute inset-0 bg-noise opacity-30" />
+        <div className="absolute inset-0 bg-noise opacity-[0.3]" style={{ pointerEvents: 'none' }} />
         <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
         
         <div className="container relative">
@@ -217,7 +217,7 @@ export default function Calcolatore() {
                   <Button
                     onClick={handleCalculate}
                     size="lg"
-                    className="w-full glow-gold bg-primary hover:bg-primary/90 text-primary-foreground font-display font-semibold h-14"
+                    className="w-full glow-gold bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600 hover:from-amber-700 hover:via-amber-600 hover:to-amber-700 hover:scale-105 text-white font-display font-bold h-14 shadow-xl shadow-amber-600/60 border-2 border-amber-500/30"
                   >
                     <Calculator className="w-5 h-5 mr-2" />
                     Calcola Risparmio
@@ -340,7 +340,7 @@ export default function Calcolatore() {
 
                     {/* CTA */}
                     <Link href="/contatti">
-                      <Button size="lg" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold">
+                      <Button size="lg" className="w-full glow-gold bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600 hover:from-amber-700 hover:via-amber-600 hover:to-amber-700 hover:scale-105 text-white font-display font-bold shadow-xl shadow-amber-600/60 border-2 border-amber-500/30">
                         Richiedi Preventivo Dettagliato
                         <ArrowRight className="w-5 h-5 ml-2" />
                       </Button>

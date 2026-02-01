@@ -95,7 +95,7 @@ export default function Contatti() {
 
       {/* Hero Section */}
       <section className="relative py-24 overflow-hidden">
-        <div className="absolute inset-0 bg-noise opacity-30" />
+        <div className="absolute inset-0 bg-noise opacity-[0.3]" style={{ pointerEvents: 'none' }} />
         <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
         
         <div className="container relative">
@@ -256,6 +256,7 @@ export default function Contatti() {
                           onChange={handleChange}
                           placeholder="mario@esempio.it"
                           required
+                          autoComplete="email"
                           className="bg-background border-border focus:border-primary h-12"
                         />
                       </div>
@@ -270,6 +271,7 @@ export default function Contatti() {
                           value={formData.telefono}
                           onChange={handleChange}
                           placeholder="+39 123 456 7890"
+                          autoComplete="tel"
                           className="bg-background border-border focus:border-primary h-12"
                         />
                       </div>
@@ -326,7 +328,7 @@ export default function Contatti() {
 
       {/* FAQ Section */}
       <section className="py-24 bg-solar-darker relative overflow-hidden">
-        <div className="absolute inset-0 bg-noise opacity-30" />
+        <div className="absolute inset-0 bg-noise opacity-[0.3]" style={{ pointerEvents: 'none' }} />
         <div className="container relative">
           <motion.div
             className="text-center max-w-3xl mx-auto mb-16"

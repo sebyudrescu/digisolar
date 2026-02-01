@@ -98,7 +98,7 @@ export default function Revamping() {
 
       {/* Problem Section */}
       <section className="py-24 bg-solar-darker relative overflow-hidden">
-        <div className="absolute inset-0 bg-noise opacity-30" />
+        <div className="absolute inset-0 bg-noise opacity-[0.3]" style={{ pointerEvents: 'none' }} />
         <div className="container relative">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div
@@ -186,7 +186,7 @@ export default function Revamping() {
 
       {/* Benefits Section */}
       <section className="py-24 bg-solar-darker relative overflow-hidden">
-        <div className="absolute inset-0 bg-noise opacity-30" />
+        <div className="absolute inset-0 bg-noise opacity-[0.3]" style={{ pointerEvents: 'none' }} />
         <div className="container relative">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div
@@ -203,7 +203,7 @@ export default function Revamping() {
                 in un sistema efficiente e performante.
               </p>
               <Link href="/contatti">
-                <Button size="lg" className="glow-gold-sm bg-primary hover:bg-primary/90 text-primary-foreground font-display font-semibold px-8">
+                <Button size="lg" className="glow-gold bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600 hover:from-amber-700 hover:via-amber-600 hover:to-amber-700 hover:scale-105 text-white font-display font-bold px-8 shadow-xl shadow-amber-600/60 border-2 border-amber-500/30">
                   Richiedi Diagnosi Gratuita
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
@@ -250,7 +250,7 @@ export default function Revamping() {
               Contattaci per una diagnosi gratuita del tuo impianto fotovoltaico esistente.
             </p>
             <Link href="/contatti">
-              <Button size="lg" className="glow-gold bg-primary hover:bg-primary/90 text-primary-foreground font-display font-semibold px-10 h-14 text-lg">
+              <Button size="lg" className="glow-gold bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600 hover:from-amber-700 hover:via-amber-600 hover:to-amber-700 hover:scale-105 text-white font-display font-bold px-10 h-14 text-lg shadow-xl shadow-amber-600/60 border-2 border-amber-500/30">
                 Richiedi Diagnosi Gratuita
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
