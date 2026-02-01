@@ -225,19 +225,19 @@ export default function Servizi() {
                         <service.icon className="w-6 h-6 sm:w-8 sm:h-8 text-black" />
                       </div>
 
-                      {/* Stats Overlay - Compatto e discreto su mobile */}
-                      <div className="absolute bottom-3 left-3 right-3 flex gap-1.5 sm:gap-3">
-                        <div className="flex-1 bg-black/70 backdrop-blur-md rounded-md p-1.5 sm:p-2.5 border border-primary/30">
-                          <div className="text-[10px] sm:text-xs text-primary/70 mb-0.5 sm:mb-1">Risparmio</div>
-                          <div className="font-display text-xs sm:text-base font-bold text-primary whitespace-nowrap">{service.stats.saving}</div>
+                      {/* Stats Overlay - Compatto e ben spaziato */}
+                      <div className="absolute bottom-2 left-2 right-2 flex gap-1 sm:gap-3">
+                        <div className="flex-1 bg-black/80 backdrop-blur-md rounded p-1 sm:p-2.5 border border-primary/30 min-w-0">
+                          <div className="text-[8px] sm:text-xs text-primary/70 mb-0.5 leading-tight">Risparmio</div>
+                          <div className="font-display text-[11px] sm:text-base font-bold text-primary leading-none">{service.stats.saving}</div>
                         </div>
-                        <div className="flex-1 bg-black/70 backdrop-blur-md rounded-md p-1.5 sm:p-2.5 border border-primary/30">
-                          <div className="text-[10px] sm:text-xs text-primary/70 mb-0.5 sm:mb-1">Potenza</div>
-                          <div className="font-display text-[10px] sm:text-base font-bold text-primary whitespace-nowrap overflow-hidden text-ellipsis">{service.stats.power}</div>
+                        <div className="flex-1 bg-black/80 backdrop-blur-md rounded p-1 sm:p-2.5 border border-primary/30 min-w-0">
+                          <div className="text-[8px] sm:text-xs text-primary/70 mb-0.5 leading-tight">Potenza</div>
+                          <div className="font-display text-[9px] sm:text-base font-bold text-primary leading-none overflow-hidden text-ellipsis whitespace-nowrap">{service.stats.power}</div>
                         </div>
-                        <div className="flex-1 bg-black/70 backdrop-blur-md rounded-md p-1.5 sm:p-2.5 border border-primary/30">
-                          <div className="text-[10px] sm:text-xs text-primary/70 mb-0.5 sm:mb-1">ROI</div>
-                          <div className="font-display text-[10px] sm:text-sm font-bold text-primary whitespace-nowrap">{service.stats.roi}</div>
+                        <div className="flex-1 bg-black/80 backdrop-blur-md rounded p-1 sm:p-2.5 border border-primary/30 min-w-0">
+                          <div className="text-[8px] sm:text-xs text-primary/70 mb-0.5 leading-tight">ROI</div>
+                          <div className="font-display text-[9px] sm:text-sm font-bold text-primary leading-none whitespace-nowrap">{service.stats.roi}</div>
                         </div>
                       </div>
                     </div>
