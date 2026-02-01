@@ -265,7 +265,7 @@ export default function Home() {
                         <h3 className="font-display text-2xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
                           {service.title}
                         </h3>
-                        <p className="text-muted-foreground line-clamp-2">
+                        <p className="text-muted-foreground line-clamp-3 md:line-clamp-2">
                           {service.description}
                         </p>
                       </div>

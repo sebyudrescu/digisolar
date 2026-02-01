@@ -229,15 +229,15 @@ export default function Servizi() {
                       <div className="absolute bottom-3 left-3 right-3 flex gap-1.5 sm:gap-3">
                         <div className="flex-1 bg-black/70 backdrop-blur-md rounded-md p-1.5 sm:p-2.5 border border-primary/30">
                           <div className="text-[10px] sm:text-xs text-primary/70 mb-0.5 sm:mb-1">Risparmio</div>
-                          <div className="font-display text-xs sm:text-base font-bold text-primary">{service.stats.saving}</div>
+                          <div className="font-display text-xs sm:text-base font-bold text-primary whitespace-nowrap">{service.stats.saving}</div>
                         </div>
                         <div className="flex-1 bg-black/70 backdrop-blur-md rounded-md p-1.5 sm:p-2.5 border border-primary/30">
                           <div className="text-[10px] sm:text-xs text-primary/70 mb-0.5 sm:mb-1">Potenza</div>
-                          <div className="font-display text-xs sm:text-base font-bold text-primary truncate">{service.stats.power}</div>
+                          <div className="font-display text-[10px] sm:text-base font-bold text-primary whitespace-nowrap overflow-hidden text-ellipsis">{service.stats.power}</div>
                         </div>
                         <div className="flex-1 bg-black/70 backdrop-blur-md rounded-md p-1.5 sm:p-2.5 border border-primary/30">
                           <div className="text-[10px] sm:text-xs text-primary/70 mb-0.5 sm:mb-1">ROI</div>
-                          <div className="font-display text-xs sm:text-base font-bold text-primary truncate">{service.stats.roi}</div>
+                          <div className="font-display text-[10px] sm:text-sm font-bold text-primary whitespace-nowrap">{service.stats.roi}</div>
                         </div>
                       </div>
                     </div>
