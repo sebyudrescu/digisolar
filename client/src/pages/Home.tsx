@@ -80,7 +80,7 @@ const values = [
   { icon: Sun, title: "Energia Pulita", description: "Contribuiamo alla transizione energetica con soluzioni 100% rinnovabili" },
   { icon: Shield, title: "Affidabilità", description: "Garanzia fino a 25 anni sui pannelli e assistenza continua post-installazione" },
   { icon: Zap, title: "Efficienza", description: "Tecnologie all'avanguardia per massimizzare la produzione energetica" },
-  { icon: TrendingUp, title: "Risparmio", description: "ROI garantito in 3-5 anni con risparmi immediati sulla bolletta" },
+  { icon: TrendingUp, title: "Risparmio", description: "ROI garantito in 3‑5 anni con risparmi immediati sulla bolletta" },
 ];
 
 export default function Home() {
