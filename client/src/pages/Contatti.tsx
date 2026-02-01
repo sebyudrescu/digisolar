@@ -346,11 +346,11 @@ export default function Contatti() {
             {[
               {
                 q: "Quanto tempo richiede l'installazione?",
-                a: "L'installazione di un impianto residenziale richiede generalmente 1-2 giorni, mentre per impianti industriali i tempi variano in base alla dimensione.",
+                a: "L'installazione di un impianto residenziale richiede generalmente 1‑2 giorni, mentre per impianti industriali i tempi variano in base alla dimensione.",
               },
               {
                 q: "Quali sono i tempi di ammortamento?",
-                a: "Con le attuali tecnologie e incentivi, un impianto fotovoltaico si ammortizza mediamente in 3-5 anni per le aziende e 5-7 anni per il residenziale.",
+                a: "Con le attuali tecnologie e incentivi, un impianto fotovoltaico si ammortizza mediamente in 3‑5 anni per le aziende e 5‑7 anni per il residenziale.",
               },
               {
                 q: "Offrite assistenza post-installazione?",

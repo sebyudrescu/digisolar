@@ -189,7 +189,7 @@ export default function Calcolatore() {
                       className="bg-background border-border"
                     />
                     <p className="text-xs text-muted-foreground mt-1">
-                      Media Italia: €0.25-0.35 (residenziale), €0.15-0.25 (industriale)
+                      Media Italia: €0.25‑0.35 (residenziale), €0.15‑0.25 (industriale)
                     </p>
                   </div>
 

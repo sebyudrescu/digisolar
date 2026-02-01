@@ -38,11 +38,11 @@ const mainServices = [
     image: "/images/industrial-solar.png",
     features: [
       "Potenza da 50 kW a 1 MW+",
-      "ROI in 3-5 anni",
+      "ROI in 3‑5 anni",
       "Monitoraggio in tempo reale",
       "Manutenzione programmata",
     ],
-    stats: { saving: "60%", power: "50-1000kW", roi: "3-5 anni" },
+    stats: { saving: "60%", power: "50‑1000kW", roi: "3‑5 anni" },
   },
   {
     icon: HomeIcon,
@@ -57,7 +57,7 @@ const mainServices = [
       "Gestione intelligente energia",
       "Garanzia 25 anni pannelli",
     ],
-    stats: { saving: "80%", power: "3-20kW", roi: "4-6 anni" },
+    stats: { saving: "80%", power: "3‑20kW", roi: "4‑6 anni" },
   },
   {
     icon: RefreshCw,
@@ -72,7 +72,7 @@ const mainServices = [
       "Pulizia professionale pannelli",
       "Diagnosi gratuita impianto",
     ],
-    stats: { saving: "+30%", power: "Qualsiasi", roi: "2-3 anni" },
+    stats: { saving: "+30%", power: "Qualsiasi", roi: "2‑3 anni" },
   },
   {
     icon: Users,
@@ -148,7 +148,7 @@ const benefits = [
   {
     icon: Euro,
     title: "Risparmio Garantito",
-    description: "Riduci i costi energetici fino all'80% con un ROI certo in 3-6 anni",
+    description: "Riduci i costi energetici fino all'80% con un ROI certo in 3‑6 anni",
   },
   {
     icon: Shield,
@@ -163,7 +163,7 @@ const benefits = [
   {
     icon: Clock,
     title: "Tempi Certi",
-    description: "Dalla firma del contratto all'attivazione in 60-90 giorni garantiti",
+    description: "Dalla firma del contratto all'attivazione in 60‑90 giorni garantiti",
   },
 ];
 

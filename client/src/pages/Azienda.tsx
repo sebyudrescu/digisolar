@@ -37,7 +37,7 @@ export default function Azienda() {
     <div className="min-h-screen bg-background">
       <SEO 
         title="Fotovoltaico Industriale per Aziende"
-        description="Impianti fotovoltaici industriali chiavi in mano: riduci i costi energetici fino al 60%. Vendita, noleggio operativo, PPA. ROI in 3-5 anni. Mobilità elettrica e agrivoltaico."
+        description="Impianti fotovoltaici industriali chiavi in mano: riduci i costi energetici fino al 60%. Vendita, noleggio operativo, PPA. ROI in 3‑5 anni. Mobilità elettrica e agrivoltaico."
         keywords={["fotovoltaico industriale", "impianti fotovoltaici aziende", "risparmio energetico aziende", "PPA fotovoltaico", "agrivoltaico", "Brescia"]}
         image="/images/industrial-solar.png"
       />
@@ -71,7 +71,7 @@ export default function Azienda() {
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-2xl">
               L'energia prodotta dal sole può consentire all'impresa di ridurre la dipendenza dalla rete 
-              di oltre il 50-60% sul totale dei consumi energetici medi annui.
+              di oltre il 50‑60% sul totale dei consumi energetici medi annui.
             </p>
             <div className="flex items-center gap-3 p-3 md:p-4 rounded-xl bg-card/50 backdrop-blur-sm border border-border max-w-md">
               <div className="text-center flex-shrink-0">
